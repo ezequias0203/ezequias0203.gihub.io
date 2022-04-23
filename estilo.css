@@ -1,0 +1,122 @@
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 950px;
+    margin: auto;
+    font-size: 1.6rem;
+   
+}
+
+a:link, a:visited{
+    font-size: x-large;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+header img{
+    width: 10%;
+    border-radius: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F4F4F;
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+header nav ul li{
+    margin:3px;
+}
+header nav ul li a{
+    color: rgb(156, 154, 154);
+}
+
+header, main{
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    
+}
+footer ul li{
+    margin: 8px;
+}
+
+footer ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #363636;
+}
+footer ul li a img{
+    width: 30px;
+}
+main{
+    color: #363636;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+}
+main img{
+    width: 40%;
+}
+header nav ul li{
+    padding: 12px;
+}
+html{
+    /*a cada 1rem sera considerado 10px*/
+    font-size: 62.5%;
+}
+a{
+    padding: 1.8rem 0.3rem ;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    
+
+}
+ul{
+    overflow: hidden;
+}
+@media (max-width: 780px){
+    nav, ul{
+        flex-direction: column;
+    }
+    ul{
+        text-align: center;
+    }
+    nav{
+        align-items: flex-start;
+        padding: 10px;
+    }
+    button {
+        display: flex;
+    }
+    li, ul{
+        width: 100%;
+    }
+
+}
