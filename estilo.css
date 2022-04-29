@@ -73,8 +73,8 @@ main{
     display: flex;
     justify-content: space-between;
 }
-main img{
-    width: 40%;
+main div img{
+    width: 100%;
 }
 header nav ul li{
     padding: 12px;
@@ -101,22 +101,12 @@ button{
 ul{
     overflow: hidden;
 }
+#imagem {
+    width: 40%;
+}
+#texto {
+    width: 60%;
+}
 @media (max-width: 780px){
-    nav, ul{
-        flex-direction: column;
-    }
-    ul{
-        text-align: center;
-    }
-    nav{
-        align-items: flex-start;
-        padding: 10px;
-    }
-    button {
-        display: flex;
-    }
-    li, ul{
-        width: 100%;
-    }
-
+   
 }
