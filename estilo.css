@@ -135,3 +135,13 @@ ul{
         width: 2.5rem;
       }
 }
+@media (max-width: 432px){
+    header{
+        display: flex;
+
+    }
+    header nav ul{
+        display: block;
+        justify-content: center;
+    }
+}
